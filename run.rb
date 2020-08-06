@@ -3,7 +3,7 @@ require_relative "./models/clown"
 
 # test your code here!
 # create a few new clown instances, for example:
-# krusty = Clown.new("Krusty", 55, "Juggling Chainsaws", "Failure")
+#krusty = Clown.new("Krusty", 55, "Juggling Chainsaws", "Failure")
 
 # then run "ruby run.rb" and call your methods to make sure your code works
 # for example:
@@ -16,5 +16,5 @@ require_relative "./models/clown"
 # krusty.fears
 # => "Failure"
 
-binding.pry
+#binding.pry
 "pls"
