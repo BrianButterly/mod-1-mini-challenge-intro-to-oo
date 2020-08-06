@@ -28,7 +28,7 @@ class Clown
   end
 
   def find_by_name(name)
-
+    
   end
 
 
@@ -38,4 +38,4 @@ clown2 = Clown.new("bozo", 2, "none", "spiders")
 
 
 binding.pry
-"you better fucking work you fucking ball licking cunt ball basterd"
+"work"
