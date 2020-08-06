@@ -28,13 +28,13 @@ class Clown
   end
 
   def find_by_name(name)
-    
+
   end
 
 
 end #end of class
-x = Clown.new("krusty", 102, "unicycle", "bart")
-x1 = Clown.new("bozo", 2, "none", "spiders")
+clown1 = Clown.new("krusty", 102, "unicycle", "bart")
+clown2 = Clown.new("bozo", 2, "none", "spiders")
 
 
 binding.pry
