@@ -37,29 +37,29 @@ Write an implementation of a clown class that meets the following requirements. 
 
 Write out the following methods in `models/clown.rb`:
 
-- [ ] `Clown.new(name, age, skill, fears)`
+- [x] `Clown.new(name, age, skill, fears)`
     - *return* a new Clown instance with a name (string), age (number), skill (string) and fears (string)
-- [ ] `Clown#name`
+- [x] `Clown#name`
     - *return* the clown's name.
-- [ ] `Clown#name=(value)`
+- [x] `Clown#name=(value)`
     - *set* a new name for the clown.
-- [ ] `Clown#age`
+- [x] `Clown#age`
     - *return* the clown's age.
-- [ ] `Clown#skill`
+- [x] `Clown#skill`
     - *return* the clown's skill.
-- [ ] `Clown#skill=(value)`
+- [x] `Clown#skill=(value)`
     - *set* new skill for the clown.
-- [ ] `Clown#fears`
+- [x] `Clown#fears`
     - *return* the clown's fears.
-- [ ] `Clown#lie_about_age(new_age)`
+- [?] `Clown#lie_about_age(new_age)`
     - *set* a new age for the clown.
-- [ ] `Clown#overcome_fears`
+- [?] `Clown#overcome_fears`
     - *set* the clown's fears to `nil`.
-- [ ] `Clown#say_hi`
+- [x] `Clown#say_hi`
     - *output* a string in the following format: `Hello my name is Krusty. I'm 55 years old. I'm good at juggling chainsaws and terrified of failure.`
-- [ ] `Clown.all`
+- [x] `Clown.all`
     - *return* an array of all Clown instances that have been created in our application.
-- [ ] `Clown.names`
+- [x] `Clown.names`
     - *return* an array of strings for each clown's name
 - [ ] `Clown.find_by_name(name)`
     - *return* a single Clown instance for the clown whose name matches the name argument for this method.

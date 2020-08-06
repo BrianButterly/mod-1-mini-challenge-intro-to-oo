@@ -1,4 +1,4 @@
-require 'pry'
+
 class Clown
   
     attr_accessor :name, :age, :skill, :fears
@@ -27,15 +27,16 @@ class Clown
     "Hello my name is #{@name}. I'm #{@age}. I'm good at #{@skill} and terrified of #{@fears}."
   end
 
-  def find_by_name(name)
-    
+  def self.find_by_name(name)
+    Clown.all.find do |clown_instance|
+      clown_instance.name == name
+    end
   end
 
+  def self.oldest
+    Clown.all.max_by do |oldest_instance|
+      oldest_instance.age 
+    end
+  end
 
 end #end of class
-clown1 = Clown.new("krusty", 102, "unicycle", "bart")
-clown2 = Clown.new("bozo", 2, "none", "spiders")
-
-
-binding.pry
-"work"
